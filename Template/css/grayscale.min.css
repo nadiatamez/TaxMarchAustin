@@ -1,11 +1,11 @@
- */body,
+ *body,
  html {
      height: 100%;
      width: 100%
  }
- .navbar-custom,
+ .navbar.navbar-custom,
  body {
-     background-color: #000
+     background-color: #008465;
  }
  .intro,
  body,
@@ -14,7 +14,7 @@
  }
  body {
      font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
-     color: #fff;
+     color: white;
      webkit-tap-highlight-color: rgba(255, 255, 255, .2)
  }
  .btn,
@@ -37,6 +37,10 @@
      font-weight: 700;
      letter-spacing: 1px
  }
+ .btn-primary { /*targeting Facebook button in particular*/
+    background-color: #251d5f;
+
+}
  p {
      margin: 0 0 25px;
      font-size: 18px;
@@ -63,13 +67,18 @@
  .light {
      font-weight: 400
  }
+.navbar-toggler-right {
+    border: 2px solid black;
+}   
+
+ }
  .navbar-custom {
      margin-bottom: 0;
      border-bottom: 1px solid rgba(255, 255, 255, .3)
  }
  .navbar-custom .navbar-toggle {
-     color: #fff;
-     background-color: rgba(255, 255, 255, .2);
+     /*color: #fff;*/
+     /*background-color: #fff;*/
      font-size: 12px
  }
  .navbar-custom .nav li a:active,
@@ -82,6 +91,9 @@
  .navbar-custom .navbar-toggle:focus {
      outline: 0
  }
+ .navbar-brand {
+    padding-left:10px;
+ }
  .navbar-custom .navbar-brand {
      font-weight: 700
  }
@@ -90,6 +102,12 @@
  }
  .navbar-custom a {
      color: #fff
+ }
+ a.nav-link {
+    color:white;
+ }
+ .navbar-custom.nav-item a {
+    color:white;
  }
  .navbar-custom .nav li a {
      -webkit-transition: background .3s ease-in-out;
@@ -179,7 +197,7 @@
      margin-top: 15px;
      padding: 0 11px;
      border: 2px solid #fff;
-     border-radius: 100%!important;
+     border-radius: 100% !important;
      font-size: 40px;
      color: #fff;
      background: 0 0;
@@ -273,13 +291,13 @@
      border-radius: 0
  }
  .btn-default {
-     border: 1px solid #42DCA3;
+     /*border: 1px solid #42DCA3;*/
      color: #42DCA3;
      background-color: transparent
  }
  .btn-default:focus,
  .btn-default:hover {
-     border: 1px solid #42DCA3;
+     /*border: 1px solid #42DCA3;*/
      outline: 0;
      color: #000;
      background-color: #42DCA3
