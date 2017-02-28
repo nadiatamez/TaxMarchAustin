@@ -14,11 +14,6 @@
  .navbar.navbar-custom {
     background-color: rgba(211,211,211,0.7);
  }
- .btn-outline-primary { /*targeting Facebook button in particular*/
-    color: #251d5f;
-    border-color: #251d5f;
-    border-radius: 10px;
-}
 #contact .btn {
     margin-bottom: 10px;
 }
@@ -68,6 +63,19 @@
      transition: background .3s ease-in-out
  }
 
+ .btn-outline-primary {
+    color: #251d5f;
+    border-color: #251d5f;
+    border-radius: 10px;
+    background-color: transparent
+ }
+ .btn-outline-primary:focus,
+ .btn-outline-primary:hover {
+     border: 1px solid #251d5f;
+     outline: 0;
+     color: white;
+     background-color: #251d5f
+ }
 .intro,
 #about,
 #get-involved,
