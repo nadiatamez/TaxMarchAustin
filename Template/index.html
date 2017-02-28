@@ -23,7 +23,7 @@
 
     <!-- Theme CSS -->
     <link href="css/grayscale.min.css" rel="stylesheet">
-
+    <link href="css/styles.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -33,41 +33,29 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+<body id="page-top" data-spy="scroll" data-target="navbar-fixed-top">
+<!-- NAVIGATION -->
+    <nav class="navbar navbar-toggleable-sm navbar-light bg-faded navbar-custom fixed-top">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style=""></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top"><span class="light">TaxMarch</span>Austin</a>
+            <div class="collapse navbar-collapse pull-sm-right" id="navbarNav">
+                <ul class="nav navbar-nav pull-xs-right pull-sm-right pull-md-right pull-lg-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#page-top">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">About</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#get-involved">Involvement</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">Contact</a>
                     </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+                </ul> <!-- navbar-nav -->
+            </div> <!-- collapse navbar-collapse -->
     </nav>
     
 
@@ -76,9 +64,13 @@
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2" style="text-align:center; margin-left:200px;">
+                    <div class="col-md-8 offset-md-2 text-center">
                         <h1 class="brand-heading">Tax March Austin</h1>
-                        <p class="intro-text">President Trump still hasn’t released his tax returns.</p>                        
+                        <h3 class="intro-text">April 15, 2017</h3>                        
+                        <p class="intro-text">74% of Americans agree it is unacceptable that President Trump has yet to release his tax returns.</p>                        
+                        <p class="intro-text">Join the march and show <br>WE CARE.</p>
+                        <!-- <h1 class="brand-heading">Tax March Austin</h1>
+                        <p class="intro-text">President Trump hasn’t released his tax returns.</p>                        
                         <p class="intro-text">
                             That is unacceptable — and 74% of Americans agree.
 
@@ -87,8 +79,8 @@
                             “People don’t care.”
                             On Saturday, April 15, 2017
                             we’re marching to show him:</p>
-                        <p class="intro-text">YES WE CARE</p>
-                        <a href="https://www.facebook.com/events/365859470468050/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">RSVP on Facebook</span></a>
+                        <p class="intro-text">YES WE CARE</p> -->
+                        <a href="https://www.facebook.com/events/365859470468050/" class="btn btn-primary btn-lg" ><i class="fa fa-facebook fa-fw"></i> <span class="network-name">RSVP on Facebook</span></a>
                         <br><br>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -102,49 +94,84 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
+
             <div class="col-lg-8 offset-lg-2">
                 <h2>Why We're Marching</h2>
                 <p>Mission Statement Goes here.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 offset-lg-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                <div class="col-md-10 offset-md-1">
+                    <h2>Our Mission</h2>
+                    <div class="container">
+                        <p>Tax March Austin strives to ensure integrity in government by demanding transparency from our elected officials.<br><br>For decades, presidential candidates have shared their tax returns with the public to demonstrate their freedom from potential financial conflicts of interest and fitness to represent America. Throughout the 2016 Presidential Campaign, Donald Trump promised the American people that he - like the other candidates - would release his tax returns to prove his independence from foreign and corporate interests.<br><br> Despite intense pressure, he has not yet done so. Because of this refusal, Americans have been denied the opportunity to vet his potential conflicts of interest, and have been left wondering why Mr. Trump is so intent on withholding his business dealings and financial ties.<br><br>Within days of his inaguration, over one million American citizens called on President Trump to release his tax returns by signing a White House Petition that garnered more signatures than any other in history. The Trump Administration's response?<br>"People don't care."</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+    <!-- Download Section -->
+    <section id="get-involved" class="content-section text-center">
+        <div class="download-section get-involved">
+            <div class="container">
+            <h2>Get Involved</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-block">
+                            <h3 class="card-title">Volunteer</h3>
+                            <p class="card-text">We could use your help! We have lots to do.</p>
+                            <a href="#" class="btn btn-primary">Submit</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-block">
+                            <h3 class="card-title">Donate</h3>
+                            <p class="card-text">Any contribution is greatly appreciated!</p>
+                            <a href="#" class="btn btn-primary">Submit</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                          <div class="card-block">
+                            <h3 class="card-title">Shop</h3>
+                            <p class="card-text">This goes a long way in getting the word out!</p>
+                            <a href="#" class="btn btn-primary">Submit</a>
+                          </div>
+                        </div>
+                    </div>
+                </div> <!-- div class="row" -->
+                    <!-- <h2>Download Grayscale</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a> -->
             </div>
         </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 about">
+                    <h2>---Contact Info Here---</h2>
+                    <p>Feel free get in touch with us and give us feedback, suggestions, or just say hello!</p>
+                    <p><a href="mailto:feedback@startbootstrap.com">feedback@AustinTaxMarchEmail.com</a>
+                    </p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a href="https://twitter.com/SBootstrap" class="btn btn-primary btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-primary btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-primary btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!-- container -->
     </section>
 
     <!-- Map Section -->
@@ -153,7 +180,8 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>---Copyright Info Here---</p>
+            <p>Copyright &copy; Austin Tax March 2017</p>
         </div>
     </footer>
 

@@ -147,14 +147,6 @@
  .intro .intro-body .intro-text {
      font-size: 18px
  }
-
-/*
-.intro-text, .brand-heading, .intro-button {
-    margin-left: 100px;
-    text-align: center;
-}
-*/
-
  @media (min-width: 768px) {
      .intro {
          height: 100%;
