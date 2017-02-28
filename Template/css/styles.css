@@ -123,6 +123,13 @@ h2 {
      height: 200px;
      margin-top: 100px
  }*/
+#plan {
+    background-color: #f9f6ee;
+    width: 100%;
+    color: black;
+    padding-top: 0;
+}
+
  @media (min-width: 767px) {
      #map {
          height: 25em;
