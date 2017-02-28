@@ -14,10 +14,13 @@
  .navbar.navbar-custom {
     background-color: #c1c1c1;
  }
- .btn-primary { /*targeting Facebook button in particular*/
-    background-color: #251d5f;
-    border: none;
+ .btn-outline-primary { /*targeting Facebook button in particular*/
+    color: #251d5f;
+    border-color: #251d5f;
     border-radius: 10px;
+}
+#contact .btn {
+    margin-bottom: 10px;
 }
 .navbar-toggler-right {
     border: 2px solid black;
