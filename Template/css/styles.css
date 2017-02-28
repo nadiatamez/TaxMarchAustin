@@ -12,7 +12,7 @@
      letter-spacing: 0
  }
  .navbar.navbar-custom {
-    background-color: #c1c1c1;
+    background-color: rgba(211,211,211,0.7);
  }
  .btn-primary { /*targeting Facebook button in particular*/
     background-color: #251d5f;
