@@ -43,8 +43,24 @@
      -o-background-size: cover
  }
  .brand-heading {
-    margin-top: 6rem;
+    margin-top: 7rem;
+    /*text-shadow: 1px 2px 3px black;*/
  }
+.intro h1,
+.intro h3,
+.intro p
+#about h2,
+/*#get-involved h2,*/
+/*#get-involved .download-section h2, */
+#contact h2  {
+    text-shadow: 1px 1px 2px black
+ }
+
+#get-involved h2 {
+    color:white;
+    text-shadow: 1px 1px 2px black;
+}
+
  .btn-circle.page-scroll {
     margin-bottom: 1em;
  }
