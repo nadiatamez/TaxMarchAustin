@@ -1,7 +1,8 @@
- body {
-     background-color: #008465;
+body {
+     background-color: #f9f6ee;
      padding:0;
      margin:0;
+     position: relative;
  }
  h1,
  h2,
@@ -11,7 +12,10 @@
  h6 {
      letter-spacing: 0
  }
- .navbar.navbar-custom {
+ a {
+    color:#017248;
+ }
+.navbar.navbar-custom {
     background-color: rgba(211,211,211,0.7);
  }
 #contact .btn {
@@ -20,11 +24,8 @@
 .navbar-toggler-right {
     border: 2px solid black;
 }   
-
  }
  .navbar-custom .navbar-toggle {
-     /*color: #fff;*/
-     /*background-color: #fff;*/
      font-size: 12px
  }
  .navbar-brand {
@@ -35,32 +36,31 @@
     height: 15%;
      display: table;
      height: auto;
-     /*padding: 100px 0;*/
-     /*color: #fff;*/
      background: url(../img/intro-bg.jpg) bottom center no-repeat #000;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover
  }
- .brand-heading {
+#logo {
+   width: 60%;
+   height: auto;
+   padding-top: 2em;
+}
+.brand-heading {
     margin-top: 7rem;
-    /*text-shadow: 1px 2px 3px black;*/
  }
 .intro h1,
 .intro h3,
-.intro p
-#about h2,
-/*#get-involved h2,*/
-/*#get-involved .download-section h2, */
+.intro p,
+#about,
+#plan h2,
 #contact h2  {
-    text-shadow: 1px 1px 2px black
+    color:black;
  }
-
 #get-involved h2 {
     color:white;
     text-shadow: 1px 1px 2px black;
 }
-
  .btn-circle.page-scroll {
     margin-bottom: 1em;
  }
@@ -69,28 +69,27 @@
      height: 50px;
      margin-top: 15px;
      padding: 0 11px;
-     border: 2px solid #fff;
+     border: 2px solid black;
      border-radius: 100% !important;
      font-size: 40px;
-     color: #fff;
+     color: black !important;
      background: 0 0;
      -webkit-transition: background .3s ease-in-out;
      -moz-transition: background .3s ease-in-out;
      transition: background .3s ease-in-out
  }
-
  .btn-outline-primary {
-    color: #251d5f;
-    border-color: #251d5f;
+    color: #124734;
+    border-color: #124734;
     border-radius: 10px;
-    background-color: transparent
+    background-color: transparent;
  }
  .btn-outline-primary:focus,
  .btn-outline-primary:hover {
-     border: 1px solid #251d5f;
-     outline: 0;
-     color: white;
-     background-color: #251d5f
+    border: 1px solid #124734;
+    color: white;
+    outline:0;
+    background-color: #124734;
  }
 .intro,
 #about,
@@ -99,11 +98,15 @@
 #contact {
     padding:0;
 }
-
+#missionstatement p,
+#accordion:last-child,
+#get-involved .card:last-child,
+li.list-inline-item:last-child {
+    margin-bottom: 100px;
+}
 .download-section {
     padding-bottom:25px;
 }
-
 h2 {
      padding-top:100px;
 }
@@ -111,31 +114,15 @@ h2 {
     color:black;
     margin-bottom: 10px;
 }
-.card:last-child {
-    margin-bottom:50px;
-}
 .banner-social-buttons .btn-primary{
     margin-bottom: 10px;
 }
-
-/* #map {
-     width: 100%;
-     height: 200px;
-     margin-top: 100px
- }*/
 #plan {
-    background-color: #f9f6ee;
+    background-color: #017248;
     width: 100%;
     color: black;
     padding-top: 0;
 }
-
-#logo {
-    width: 60%;
-    height: auto;
-    padding-top: 5em;
-}
-
  @media (min-width: 767px) {
      #map {
          height: 25em;
@@ -144,4 +131,5 @@ h2 {
  }
 footer {
     padding: 15px 0;
+    color:black;
 }
