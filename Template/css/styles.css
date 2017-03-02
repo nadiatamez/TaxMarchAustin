@@ -130,6 +130,12 @@ h2 {
     padding-top: 0;
 }
 
+#logo {
+    width: 60%;
+    height: auto;
+    padding-top: 5em;
+}
+
  @media (min-width: 767px) {
      #map {
          height: 25em;
