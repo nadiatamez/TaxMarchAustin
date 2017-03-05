@@ -3,7 +3,6 @@ body {
      padding:0;
      margin:0;
      position: relative;
-     color: black;
  }
  h1,
  h2,
@@ -16,21 +15,20 @@ body {
  a {
     color:#017248;
  }
+/*
+.navbar .navbar-custom {
+    background-color: rgba(211,211,211,0.7);
+ }
+*/
 #contact .btn {
     margin-bottom: 10px;
-}
-.navbar {
-    background-color: white;
-    opacity: .98;
 }
 .navbar-toggler-right {
     border: 2px solid black;
 }   
  }
  .navbar-custom .navbar-toggle {
-     font-size: 12px;
-     background-color: white;
-     opacity:.98;
+     font-size: 12px
  }
  .navbar-brand {
     padding-left:10px;
