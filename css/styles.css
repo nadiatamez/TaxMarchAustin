@@ -15,9 +15,11 @@ body {
  a {
     color:#017248;
  }
-.navbar.navbar-custom {
+/*
+.navbar .navbar-custom {
     background-color: rgba(211,211,211,0.7);
  }
+*/
 #contact .btn {
     margin-bottom: 10px;
 }
@@ -31,7 +33,10 @@ body {
  .navbar-brand {
     padding-left:10px;
  }
- 
+ .navbar {
+    background-color: white;
+    opacity: .98;
+}
  .intro {
     height: 15%;
      display: table;
@@ -44,7 +49,7 @@ body {
 #logo {
    width: 60%;
    height: auto;
-   padding-top: 5em;
+   padding-top: 6em;
 }
 .brand-heading {
     margin-top: 7rem;
@@ -101,7 +106,8 @@ body {
 #missionstatement p,
 #accordion:last-child,
 #get-involved .card:last-child,
-li.list-inline-item:last-child {
+li.list-inline-item:last-child,
+#shop .card:last-child {
     margin-bottom: 100px;
 }
 .download-section {
