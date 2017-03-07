@@ -15,11 +15,7 @@ body {
  a {
     color:#017248;
  }
-/*
-.navbar .navbar-custom {
-    background-color: rgba(211,211,211,0.7);
- }
-*/
+
 #contact .btn {
     margin-bottom: 10px;
 }
@@ -52,8 +48,9 @@ body {
    padding-top: 6em;
 }
 .brand-heading {
-    margin-top: 7rem;
+    margin-top: 3rem;
  }
+
 .intro h1,
 .intro h3,
 .intro p,
