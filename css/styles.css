@@ -93,6 +93,18 @@ body {
     outline:0;
     background-color: #124734;
  }
+ .btn-outline-order {
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+    background-color: transparent;
+ }
+ .btn-outline-order:hover {
+    border: 1px solid #124734;
+    color: white;
+    outline:0;
+    background-color: #124734;
+ }
 .intro,
 #about,
 #get-involved,
@@ -104,7 +116,7 @@ body {
 #accordion:last-child,
 #get-involved .card:last-child,
 li.list-inline-item:last-child,
-#shop .card:last-child {
+.shop-content {
     margin-bottom: 100px;
 }
 .download-section {
@@ -116,6 +128,9 @@ h2 {
 .card {
     color:black;
     margin-bottom: 10px;
+}
+#shop-main h5 {
+    padding-top:2em;
 }
 .banner-social-buttons .btn-primary{
     margin-bottom: 10px;
